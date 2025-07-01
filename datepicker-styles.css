@@ -12,22 +12,30 @@ h1 {
 }
 
 .date-input-section {
+    width: 200px;
     display: flex;
+
+    margin-bottom: 5px;
+}
+
+#date-input {
+    width: 85%;
 }
 
 .calender-button {
-    width:30px;
+    width: 30px;
 }
 
 .calender-section {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .calender-nav-section {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .back-triangle {
@@ -37,11 +45,12 @@ h1 {
     border-bottom: 10px solid transparent;
     border-right: 10px solid #000;
     border-radius: 5px;
-   
+
 }
 
 p {
-   
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .forward-triangle {
@@ -53,9 +62,19 @@ p {
     border-radius: 5px;
 }
 
+.calendar {
+    width: 200px;
+}
 
-
- td {
+td {
     border: 1px solid blanchedalmond;
     text-align: center;
+}
+
+td:hover {
+    background-color: antiquewhite;
+}
+
+.active {
+    background-color: antiquewhite;
 }
